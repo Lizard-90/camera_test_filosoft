@@ -144,7 +144,7 @@ class _CameraViewerScreenState extends State<CameraViewerScreen> {
       appBar: AppBar(title: Text('Camera ${widget.camera.id}')),
       body: VlcPlayer(
         controller: _vlcPlayerController,
-        aspectRatio: 16 / 9,
+        aspectRatio: 1,
         placeholder: Center(child: CircularProgressIndicator()),
       ),
     );
